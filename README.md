@@ -1,1 +1,22 @@
-# Mid-1
+#include<stdio.h>
+int main(){
+int n,i;
+scanf("%d",&n);
+if(n>0){
+if(n%2==0){
+    printf("%d is Even number\n",n);
+}
+else {
+        printf("Odd number\n");
+        }
+         printf("All the even number from 1 to %d \n",n);
+for(i=1;i<=n;i++){
+    if(i%2==0){
+
+        printf("%d ",i);
+    }
+
+}
+}
+
+}
